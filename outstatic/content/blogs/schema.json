@@ -12,6 +12,14 @@
         {
           "value": "leather",
           "label": "leather"
+        },
+        {
+          "value": "farbics",
+          "label": "Farbics"
+        },
+        {
+          "value": "cover",
+          "label": "Cover"
         }
       ]
     }
