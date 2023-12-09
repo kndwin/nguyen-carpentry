@@ -1,10 +1,10 @@
 {
-  "commit": "de4187e4ec319d818ea4b7bcbbd051b17446a8ce",
-  "generated": "2023-12-09T07:54:45.833Z",
+  "commit": "e879445724fb6e539bd39fd66f21cbc54c68fd16",
+  "generated": "Sat, 09 Dec 2023 07:57:58 GMT",
   "metadata": [
     {
       "__outstatic": {
-        "commit": "bcb4a468428bd17a7ecbd709a2dcbf886b342baa",
+        "commit": "935ea8e361ce2ee16b32f11e0a18c0d609a4a5f3",
         "hash": "1238166927",
         "path": "outstatic/content/blogs/navigating-the-world-of-fabrics-a-comprehensive-guide-for-furniture-enthusiasts.md"
       },
@@ -32,8 +32,8 @@
     },
     {
       "__outstatic": {
-        "commit": "de4187e4ec319d818ea4b7bcbbd051b17446a8ce",
-        "hash": "4257524135",
+        "commit": "ef20635f13814f0e1c67a1465a5c6b35a047e274",
+        "hash": "94087418",
         "path": "outstatic/content/blogs/knowing-your-leather-hides.md"
       },
       "author": {
@@ -44,10 +44,6 @@
         {
           "label": "leather",
           "value": "leather"
-        },
-        {
-          "label": "Cover",
-          "value": "cover"
         }
       ],
       "collection": "blogs",
