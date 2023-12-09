@@ -10,14 +10,17 @@
   },
   "dependencies": {
     "@radix-ui/colors": "^3.0.0",
+    "@tailwindcss/typography": "^0.5.10",
     "date-fns": "^2.30.0",
     "next": "14.0.4",
+    "next-themes": "^0.2.1",
     "outstatic": "^1.0.4",
     "react": "^18",
     "react-dom": "^18",
     "remark": "^15.0.1",
     "remark-html": "^16.0.1",
-    "tailwindcss-radix-colors": "^0.5.1"
+    "windy-radix-palette": "^2.0.0-beta.7",
+    "windy-radix-typography": "^1.0.0-beta.0"
   },
   "devDependencies": {
     "typescript": "^5",

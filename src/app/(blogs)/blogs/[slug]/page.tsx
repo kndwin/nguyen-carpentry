@@ -2,12 +2,13 @@ import Image from "next/image";
 import { Metadata } from "next";
 import { OstDocument } from "outstatic";
 import { getDocumentSlugs, load } from "outstatic/server";
+
 import { notFound } from "next/navigation";
 import { parseISO, format } from "date-fns";
 import { remark } from "remark";
 import html from "remark-html";
 
-import { Layout, Header } from "@/components/Layout";
+import { Layout } from "@/components/layout";
 
 type Blog = {
   tags: { value: string; label: string }[];
@@ -80,7 +81,7 @@ export default async function Blog(params: Params) {
         ? blog.tags.map(({ label }) => (
             <span
               key="label"
-              className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+              className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-1 mr-2 mb-2"
             >
               {label}
             </span>
@@ -89,15 +90,15 @@ export default async function Blog(params: Params) {
       <h1 className="font-primary text-2xl font-bold md:text-4xl mb-2">
         {blog.title}
       </h1>
-      <div className="hidden md:block md:mb-12 text-slate-600">
+      <div className="hidden md:block md:mb-12 text-gray-11">
         Written on{" "}
         <time>{format(parseISO(blog.publishedAt), "MMMM dd, yyyy")}</time>
         <p>By {blog?.author?.name || ""}</p>
       </div>
       <hr className="border-neutral-200 mt-10 mb-10" />
-      <div className="max-w-2xl mx-auto">
+      <div className="max-w-4xl mx-auto">
         <div
-          className="prose lg:prose-xl"
+          className="prose prose-gray lg:prose-xl"
           dangerouslySetInnerHTML={{ __html: blog.content }}
         />
       </div>

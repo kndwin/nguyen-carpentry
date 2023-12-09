@@ -1,113 +1,283 @@
-import Image from 'next/image'
+import Image from "next/image";
+import { Layout } from "@/components/layout";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">src/app/page.tsx</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <Layout.Default>
+      <Sections.Hero />
+      <Sections.Products />
+      <Sections.Blogs />
+    </Layout.Default>
+  );
+}
+
+const Sections = {
+  Hero,
+  Products,
+  Blogs,
+};
+
+function Hero() {
+  return (
+    <section className="body-font">
+      <div className="container mx-auto flex px-5 items-center justify-center flex-col py-24">
+        <div className="text-center lg:w-2/3 w-full">
+          <h1 className="title-font sm:text-6xl text-5xl mb-4 font-bold">
+            Microdosing synth tattooed vexillologist
+          </h1>
+          <p className="mb-8 leading-relaxed text-gray-11">
+            Meggings kinfolk echo park stumptown DIY, kale chips beard jianbing
+            tousled. Chambray dreamcatcher trust fund, kitsch vice godard
+            disrupt ramps hexagon mustache umami snackwave tilde chillwave ugh.
+            Pour-over meditation PBR&amp;B pickled ennui celiac mlkshk freegan
+            photo booth af fingerstache pitchfork.
+          </p>
         </div>
       </div>
-
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore starter templates for Next.js.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
-  )
+    </section>
+  );
 }
+
+function Products() {
+  return (
+    <section className="body-font">
+      <div className="container px-5 py-24 mx-auto">
+        <div className="flex flex-col text-center w-full mb-20">
+          <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4">
+            Master Cleanse Reliac Heirloom
+          </h1>
+          <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
+            Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
+            gentrify, subway tile poke farm-to-table. Franzen you probably
+            haven't heard of them man bun deep jianbing selfies heirloom.
+          </p>
+        </div>
+        <div className="flex flex-wrap -m-4">
+          <div className="lg:w-1/3 sm:w-1/2 p-4">
+            <div className="flex relative rounded-lg overflow-hidden">
+              <Image
+                alt="gallery"
+                className="absolute inset-0 w-full h-full object-cover object-center"
+                src="https://dummyimage.com/600x360"
+                width={600}
+                height={360}
+              />
+              <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100 rounded-lg">
+                <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
+                  THE SUBTITLE
+                </h2>
+                <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
+                  Shooting Stars
+                </h1>
+                <p className="leading-relaxed">
+                  Photo booth fam kinfolk cold-pressed sriracha leggings
+                  jianbing microdosing tousled waistcoat.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="lg:w-1/3 sm:w-1/2 p-4">
+            <div className="flex relative">
+              <img
+                alt="gallery"
+                className="absolute inset-0 w-full h-full object-cover object-center"
+                src="https://dummyimage.com/601x361"
+              />
+              <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
+                  THE SUBTITLE
+                </h2>
+                <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
+                  The Catalyzer
+                </h1>
+                <p className="leading-relaxed">
+                  Photo booth fam kinfolk cold-pressed sriracha leggings
+                  jianbing microdosing tousled waistcoat.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="lg:w-1/3 sm:w-1/2 p-4">
+            <div className="flex relative">
+              <img
+                alt="gallery"
+                className="absolute inset-0 w-full h-full object-cover object-center"
+                src="https://dummyimage.com/603x363"
+              />
+              <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
+                  THE SUBTITLE
+                </h2>
+                <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
+                  The 400 Blows
+                </h1>
+                <p className="leading-relaxed">
+                  Photo booth fam kinfolk cold-pressed sriracha leggings
+                  jianbing microdosing tousled waistcoat.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="lg:w-1/3 sm:w-1/2 p-4">
+            <div className="flex relative">
+              <img
+                alt="gallery"
+                className="absolute inset-0 w-full h-full object-cover object-center"
+                src="https://dummyimage.com/602x362"
+              />
+              <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
+                  THE SUBTITLE
+                </h2>
+                <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
+                  Neptune
+                </h1>
+                <p className="leading-relaxed">
+                  Photo booth fam kinfolk cold-pressed sriracha leggings
+                  jianbing microdosing tousled waistcoat.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="lg:w-1/3 sm:w-1/2 p-4">
+            <div className="flex relative">
+              <img
+                alt="gallery"
+                className="absolute inset-0 w-full h-full object-cover object-center"
+                src="https://dummyimage.com/605x365"
+              />
+              <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
+                  THE SUBTITLE
+                </h2>
+                <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
+                  Holden Caulfield
+                </h1>
+                <p className="leading-relaxed">
+                  Photo booth fam kinfolk cold-pressed sriracha leggings
+                  jianbing microdosing tousled waistcoat.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="lg:w-1/3 sm:w-1/2 p-4">
+            <div className="flex relative">
+              <img
+                alt="gallery"
+                className="absolute inset-0 w-full h-full object-cover object-center"
+                src="https://dummyimage.com/606x366"
+              />
+              <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
+                  THE SUBTITLE
+                </h2>
+                <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
+                  Alper Kamu
+                </h1>
+                <p className="leading-relaxed">
+                  Photo booth fam kinfolk cold-pressed sriracha leggings
+                  jianbing microdosing tousled waistcoat.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function Blogs() {
+  return (
+    <section className="body-font overflow-hidden">
+      <div className="container px-5 py-24 mx-auto">
+        <div className="-my-8 divide-y-2 divide-gray-100">
+          <div className="py-8 flex flex-wrap md:flex-nowrap">
+            <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+              <span className="font-semibold title-font">CATEGORY</span>
+              <span className="mt-1 text-gray-500 text-sm">12 Jun 2019</span>
+            </div>
+            <div className="md:flex-grow">
+              <h2 className="text-2xl font-medium text-gray-11 title-font mb-2">
+                Bitters hashtag waistcoat fashion axe chia unicorn
+              </h2>
+              <p className="leading-relaxed">
+                Glossier echo park pug, church-key sartorial biodiesel
+                vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon
+                party messenger bag selfies, poke vaporware kombucha
+                lumbersexual pork belly polaroid hoodie portland craft beer.
+              </p>
+              <a className="text-yellow-500 inline-flex items-center mt-4">
+                Learn More
+                <Icons.RightArrow />
+              </a>
+            </div>
+          </div>
+          <div className="py-8 flex flex-wrap md:flex-nowrap">
+            <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+              <span className="font-semibold title-font text-gray-700">
+                CATEGORY
+              </span>
+              <span className="mt-1 text-gray-500 text-sm">12 Jun 2019</span>
+            </div>
+            <div className="md:flex-grow">
+              <h2 className="text-2xl font-medium text-gray-900 title-font mb-2">
+                Meditation bushwick direct trade taxidermy shaman
+              </h2>
+              <p className="leading-relaxed">
+                Glossier echo park pug, church-key sartorial biodiesel
+                vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon
+                party messenger bag selfies, poke vaporware kombucha
+                lumbersexual pork belly polaroid hoodie portland craft beer.
+              </p>
+              <a className="text-indigo-500 inline-flex items-center mt-4">
+                Learn More
+                <Icons.RightArrow />
+              </a>
+            </div>
+          </div>
+          <div className="py-8 flex flex-wrap md:flex-nowrap">
+            <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+              <span className="font-semibold title-font text-gray-700">
+                CATEGORY
+              </span>
+              <span className="text-sm text-gray-500">12 Jun 2019</span>
+            </div>
+            <div className="md:flex-grow">
+              <h2 className="text-2xl font-medium text-gray-900 title-font mb-2">
+                Woke master cleanse drinking vinegar salvia
+              </h2>
+              <p className="leading-relaxed">
+                Glossier echo park pug, church-key sartorial biodiesel
+                vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon
+                party messenger bag selfies, poke vaporware kombucha
+                lumbersexual pork belly polaroid hoodie portland craft beer.
+              </p>
+              <a className="text-indigo-500 inline-flex items-center mt-4">
+                Learn More
+                <Icons.RightArrow />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+const Icons = {
+  RightArrow: () => (
+    <svg
+      className="w-4 h-4 ml-2"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+      strokeWidth="2"
+      fill="none"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <path d="M5 12h14"></path>
+      <path d="M12 5l7 7-7 7"></path>
+    </svg>
+  ),
+};
