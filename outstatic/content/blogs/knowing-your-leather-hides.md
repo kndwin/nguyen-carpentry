@@ -1,5 +1,5 @@
 ---
-title: 'Knowing Your Leather Hides: A Comprehensive Guide for Furniture Enthusiasts'
+title: 'Knowing Your Leather Hides'
 status: 'published'
 author:
   name: 'Kevin Nguyen'
