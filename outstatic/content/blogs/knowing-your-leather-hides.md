@@ -1,12 +1,11 @@
 ---
-title: '
-Knowing Your Leather Hides: A Comprehensive Guide for Furniture Enthusiasts'
+title: 'Knowing Your Leather Hides: A Comprehensive Guide for Furniture Enthusiasts'
 status: 'published'
 author:
   name: 'Kevin Nguyen'
   picture: 'https://avatars.githubusercontent.com/u/22161029?v=4'
 slug: 'knowing-your-leather-hides'
-description: ''
+description: 'Delve into the world of leather hides, understanding full-grain, top-grain, and split-grain options. Explore aniline, semi-aniline, and pigmented leathers to make informed choices for lasting, stylish furniture that suits your preferences'
 coverImage: '/images/bear-brown-thick-nappa-leather-hide-fold-Y1OT.jpg'
 publishedAt: '2023-12-09T03:28:41.485Z'
 ---
@@ -17,7 +16,7 @@ When it comes to selecting the perfect leather hide for your furniture, the choi
 
 Before we dive into the specifics of different leather hides, let's start with the basics. Leather is a natural material that comes from animal hides, and each type of leather has unique qualities and characteristics. The most common types of leather used for furniture are full-grain, top-grain, and split-grain leather.
 
-- **Full-Grain Leather:** This is the highest quality and most durable type of leather. It is made from the top layer of the hide and retains the natural grain, making each piece unique. Full-grain leather is known for its breathability and develops a rich patina over time.
+- **Full-Grain Leather:** This is the highest quality and most durable type of leather. It is made from the top layer of the hide and retains the natural grain, making each piece unique. Full-grain leather is known for its breathability and develops a rich patina ove[r time.](http://time.Top)
 
 - **Top-Grain Leather:** Slightly more processed than full-grain, top-grain leather is sanded and buffed to remove imperfections. While it may lack the natural markings of full-grain leather, it is still durable and offers a more uniform appearance.
 
