@@ -7,6 +7,7 @@ author:
 slug: 'knowing-your-leather-hides'
 description: 'Delve into the world of leather hides, understanding full-grain, top-grain, and split-grain options. Explore aniline, semi-aniline, and pigmented leathers to make informed choices for lasting, stylish furniture that suits your preferences'
 coverImage: '/images/bear-brown-thick-nappa-leather-hide-fold-Y1OT.jpg'
+category: [{"label":"leather","value":"leather"}]
 publishedAt: '2023-12-09T03:28:41.485Z'
 ---
 

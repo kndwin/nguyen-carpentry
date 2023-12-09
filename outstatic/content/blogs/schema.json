@@ -8,7 +8,12 @@
       "fieldType": "Tags",
       "dataType": "array",
       "title": "Category",
-      "values": []
+      "values": [
+        {
+          "value": "leather",
+          "label": "leather"
+        }
+      ]
     }
   }
 }
