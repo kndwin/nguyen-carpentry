@@ -1,11 +1,11 @@
 {
-  "commit": "a83453accc40ff69b487d4060c0f41bcaaf3c088",
-  "generated": "Sat, 09 Dec 2023 02:40:51 GMT",
+  "commit": "3feb910869a1a59275a1888c34fe985578980e74",
+  "generated": "2023-12-09T02:47:43.656Z",
   "metadata": [
     {
       "__outstatic": {
-        "commit": "dc7f706413a6830631d3012a200aa86392d94f64",
-        "hash": "1202705191",
+        "commit": "3feb910869a1a59275a1888c34fe985578980e74",
+        "hash": "1095223946",
         "path": "outstatic/content/blogs/knowing-your-leather-hides.md"
       },
       "author": {
@@ -13,7 +13,7 @@
         "picture": "https://avatars.githubusercontent.com/u/22161029?v=4"
       },
       "collection": "blogs",
-      "coverImage": "https://leathermio.com/wp-content/uploads/2022/02/bear-brown-thick-nappa-leather-hide-fold.jpg",
+      "coverImage": "/images/bear-brown-thick-nappa-leather-hide-fold-g0Mz.jpg",
       "description": "",
       "publishedAt": "2023-12-09T03:28:41.485Z",
       "slug": "knowing-your-leather-hides",
