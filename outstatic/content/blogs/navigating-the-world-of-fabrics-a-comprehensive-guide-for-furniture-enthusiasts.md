@@ -1,7 +1,6 @@
 ---
-title: '
-Navigating the World of Fabrics: A Comprehensive Guide for Furniture Enthusiasts'
-status: 'draft'
+title: 'Navigating the World of Fabrics: A Comprehensive Guide for Furniture Enthusiasts'
+status: 'published'
 author:
   name: 'Kevin Nguyen'
   picture: 'https://avatars.githubusercontent.com/u/22161029?v=4'
