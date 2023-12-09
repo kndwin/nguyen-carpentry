@@ -1,24 +1,30 @@
 {
-  "commit": "3feb910869a1a59275a1888c34fe985578980e74",
-  "generated": "2023-12-09T03:45:38.195Z",
+  "commit": "d1f8b101b5c02e2c3fe221055fc05dff13f10ca5",
+  "generated": "2023-12-09T07:31:27.324Z",
   "metadata": [
     {
       "__outstatic": {
-        "commit": "3feb910869a1a59275a1888c34fe985578980e74",
-        "hash": "777792147",
+        "commit": "d1f8b101b5c02e2c3fe221055fc05dff13f10ca5",
+        "hash": "94087418",
         "path": "outstatic/content/blogs/knowing-your-leather-hides.md"
       },
       "author": {
         "name": "Kevin Nguyen",
         "picture": "https://avatars.githubusercontent.com/u/22161029?v=4"
       },
+      "category": [
+        {
+          "label": "leather",
+          "value": "leather"
+        }
+      ],
       "collection": "blogs",
       "coverImage": "/images/bear-brown-thick-nappa-leather-hide-fold-Y1OT.jpg",
-      "description": "",
+      "description": "Delve into the world of leather hides, understanding full-grain, top-grain, and split-grain options. Explore aniline, semi-aniline, and pigmented leathers to make informed choices for lasting, stylish furniture that suits your preferences",
       "publishedAt": "2023-12-09T03:28:41.485Z",
       "slug": "knowing-your-leather-hides",
       "status": "published",
-      "title": " Knowing Your Leather Hides: A Comprehensive Guide for Furniture Enthusiasts"
+      "title": "Knowing Your Leather Hides: A Comprehensive Guide for Furniture Enthusiasts"
     }
   ]
 }

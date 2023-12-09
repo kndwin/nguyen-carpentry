@@ -1,0 +1,19 @@
+{
+  "title": "blogs",
+  "type": "object",
+  "properties": {
+    "category": {
+      "required": false,
+      "description": "What type of categories this blog falls into ",
+      "fieldType": "Tags",
+      "dataType": "array",
+      "title": "Category",
+      "values": [
+        {
+          "value": "leather",
+          "label": "leather"
+        }
+      ]
+    }
+  }
+}
