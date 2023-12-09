@@ -1,10 +1,10 @@
 ---
-title: 'Navigating the World of Fabrics: A Comprehensive Guide for Furniture Enthusiasts'
+title: 'Navigating the World of Fabrics'
 status: 'published'
 author:
   name: 'Kevin Nguyen'
   picture: 'https://avatars.githubusercontent.com/u/22161029?v=4'
-slug: 'navigating-the-world-of-fabrics-a-comprehensive-guide-for-furniture-enthusiasts'
+slug: 'navigating-the-world-of-fabrics'
 description: 'Dive into the diverse world of fabrics with our guide. Explore natural options like cotton and wool, or opt for synthetics like polyester and microfiber. Choose comfort and style wisely.'
 coverImage: '/images/fabrics-EzNz.jpeg'
 category: [{"label":"Farbics","value":"farbics"},{"label":"Cover","value":"cover"}]

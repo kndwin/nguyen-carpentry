@@ -1,35 +1,7 @@
 {
-  "commit": "73066d88cbd51aa9bc030f8667dae0d1bc46029e",
-  "generated": "2023-12-09T07:59:07.157Z",
+  "commit": "2b998dd56a0f2f8de9764bf65be8f6e84f276d8f",
+  "generated": "2023-12-09T07:59:26.344Z",
   "metadata": [
-    {
-      "__outstatic": {
-        "commit": "935ea8e361ce2ee16b32f11e0a18c0d609a4a5f3",
-        "hash": "1238166927",
-        "path": "outstatic/content/blogs/navigating-the-world-of-fabrics-a-comprehensive-guide-for-furniture-enthusiasts.md"
-      },
-      "author": {
-        "name": "Kevin Nguyen",
-        "picture": "https://avatars.githubusercontent.com/u/22161029?v=4"
-      },
-      "category": [
-        {
-          "label": "Farbics",
-          "value": "farbics"
-        },
-        {
-          "label": "Cover",
-          "value": "cover"
-        }
-      ],
-      "collection": "blogs",
-      "coverImage": "/images/fabrics-EzNz.jpeg",
-      "description": "Dive into the diverse world of fabrics with our guide. Explore natural options like cotton and wool, or opt for synthetics like polyester and microfiber. Choose comfort and style wisely.",
-      "publishedAt": "2023-12-09T08:57:23.883Z",
-      "slug": "navigating-the-world-of-fabrics-a-comprehensive-guide-for-furniture-enthusiasts",
-      "status": "draft",
-      "title": " Navigating the World of Fabrics: A Comprehensive Guide for Furniture Enthusiasts"
-    },
     {
       "__outstatic": {
         "commit": "73066d88cbd51aa9bc030f8667dae0d1bc46029e",
@@ -57,6 +29,34 @@
       "slug": "knowing-your-leather-hides",
       "status": "published",
       "title": "Knowing Your Leather Hides"
+    },
+    {
+      "__outstatic": {
+        "commit": "2b998dd56a0f2f8de9764bf65be8f6e84f276d8f",
+        "hash": "4099264611",
+        "path": "outstatic/content/blogs/navigating-the-world-of-fabrics.md"
+      },
+      "author": {
+        "name": "Kevin Nguyen",
+        "picture": "https://avatars.githubusercontent.com/u/22161029?v=4"
+      },
+      "category": [
+        {
+          "label": "Farbics",
+          "value": "farbics"
+        },
+        {
+          "label": "Cover",
+          "value": "cover"
+        }
+      ],
+      "collection": "blogs",
+      "coverImage": "/images/fabrics-EzNz.jpeg",
+      "description": "Dive into the diverse world of fabrics with our guide. Explore natural options like cotton and wool, or opt for synthetics like polyester and microfiber. Choose comfort and style wisely.",
+      "publishedAt": "2023-12-09T08:57:23.883Z",
+      "slug": "navigating-the-world-of-fabrics",
+      "status": "published",
+      "title": "Navigating the World of Fabrics"
     }
   ]
 }
