@@ -17,7 +17,7 @@ When it comes to selecting the perfect leather hide for your furniture, the choi
 
 Before we dive into the specifics of different leather hides, let's start with the basics. Leather is a natural material that comes from animal hides, and each type of leather has unique qualities and characteristics. The most common types of leather used for furniture are full-grain, top-grain, and split-grain leather.
 
-- **Full-Grain Leather:** This is the highest quality and most durable type of leather. It is made from the top layer of the hide and retains the natural grain, making each piece unique. Full-grain leather is known for its breathability and develops a rich patina ove[r time.](http://time.Top)
+- **Full-Grain Leather:** This is the highest quality and most durable type of leather. It is made from the top layer of the hide and retains the natural grain, making each piece unique. Full-grain leather is known for its breathability and develops a rich patina over time.
 
 - **Top-Grain Leather:** Slightly more processed than full-grain, top-grain leather is sanded and buffed to remove imperfections. While it may lack the natural markings of full-grain leather, it is still durable and offers a more uniform appearance.
 
