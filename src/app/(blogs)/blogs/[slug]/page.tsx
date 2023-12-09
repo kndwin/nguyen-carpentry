@@ -4,6 +4,8 @@ import { OstDocument } from "outstatic";
 import { getDocumentSlugs, load } from "outstatic/server";
 import { notFound } from "next/navigation";
 import { parseISO, format } from "date-fns";
+import { remark } from "remark";
+import html from "remark-html";
 
 import { Layout, Header } from "@/components/Layout";
 
