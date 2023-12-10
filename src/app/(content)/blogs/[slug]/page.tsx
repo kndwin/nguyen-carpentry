@@ -7,7 +7,7 @@ import { parseISO, format } from "date-fns";
 
 import { Layout } from "@/components/layout";
 
-import type { Blog } from "../page";
+import type { Blog } from "../list-item";
 import { absoluteUrl, markdownToHtml } from "../../utils";
 
 type Params = {
