@@ -1,70 +1,22 @@
 import Image from "next/image";
 import { Metadata } from "next";
-import { OstDocument } from "outstatic";
 import { getDocumentSlugs, load } from "outstatic/server";
 
 import { notFound } from "next/navigation";
 import { parseISO, format } from "date-fns";
-import { remark } from "remark";
-import html from "remark-html";
 
 import { Layout } from "@/components/layout";
 
-type Blog = {
-  tags: { value: string; label: string }[];
-} & OstDocument;
+import type { Blog } from "../page";
+import { absoluteUrl, markdownToHtml } from "../../utils";
 
-interface Params {
+type Params = {
   params: {
     slug: string;
   };
-}
+};
 
-function absoluteUrl(path: string) {
-  return `${
-    process.env?.NEXT_PUBLIC_APP_URL || "http://localhost:3000"
-  }${path}`;
-}
-
-async function markdownToHtml(markdown: string) {
-  const result = await remark().use(html).process(markdown);
-  return result.toString();
-}
-
-export async function generateMetadata(params: Params): Promise<Metadata> {
-  const blog = await getData(params);
-
-  if (!blog) {
-    return {};
-  }
-
-  return {
-    title: blog.title,
-    description: blog.description,
-    openGraph: {
-      title: blog.title,
-      description: blog.description,
-      type: "article",
-      url: absoluteUrl(`/blogs/${blog.slug}`),
-      images: [
-        {
-          url: absoluteUrl(blog?.coverImage || "/images/og-image.png"),
-          width: 1200,
-          height: 630,
-          alt: blog.title,
-        },
-      ],
-    },
-    twitter: {
-      card: "summary_large_image",
-      title: blog.title,
-      description: blog.description,
-      images: absoluteUrl(blog?.coverImage || "/images/og-image.png"),
-    },
-  };
-}
-
-export default async function Blog(params: Params) {
+export default async function Page(params: Params) {
   const blog = await getData(params);
   return (
     <Layout.Blog>
@@ -77,11 +29,11 @@ export default async function Blog(params: Params) {
           priority
         />
       </div>
-      {Array.isArray(blog?.tags)
-        ? blog.tags.map(({ label }) => (
+      {Array.isArray(blog?.category)
+        ? blog.category.map(({ label }) => (
             <span
               key="label"
-              className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-1 mr-2 mb-2"
+              className="inline-block bg-yellow-3 rounded-full px-2 py-1 text-xs font-semibold text-yellow-12 mr-2 mb-2"
             >
               {label}
             </span>
@@ -118,7 +70,7 @@ async function getData({ params }: Params) {
       "author",
       "content",
       "coverImage",
-      "tags",
+      "category",
     ])
     .first();
 
@@ -131,6 +83,39 @@ async function getData({ params }: Params) {
   return {
     ...blog,
     content,
+  };
+}
+
+export async function generateMetadata(params: Params): Promise<Metadata> {
+  const blog = await getData(params);
+
+  if (!blog) {
+    return {};
+  }
+
+  return {
+    title: blog.title,
+    description: blog.description,
+    openGraph: {
+      title: blog.title,
+      description: blog.description,
+      type: "article",
+      url: absoluteUrl(`/blogs/${blog.slug}`),
+      images: [
+        {
+          url: absoluteUrl(blog?.coverImage || "/images/og-image.png"),
+          width: 1200,
+          height: 630,
+          alt: blog.title,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: blog.title,
+      description: blog.description,
+      images: absoluteUrl(blog?.coverImage || "/images/og-image.png"),
+    },
   };
 }
 

@@ -19,6 +19,7 @@
     "react-dom": "^18",
     "remark": "^15.0.1",
     "remark-html": "^16.0.1",
+    "tailwind-variants": "^0.1.18",
     "windy-radix-palette": "^2.0.0-beta.7",
     "windy-radix-typography": "^1.0.0-beta.0"
   },
