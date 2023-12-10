@@ -21,7 +21,7 @@ export function ButtonToggleTheme() {
         strokeLinecap="round"
         strokeLinejoin="round"
       >
-        {theme === "dark" && (
+        {theme === "dark" ? (
           <>
             <circle cx="12" cy="12" r="4" />
             <path d="M12 2v2" />
@@ -33,8 +33,9 @@ export function ButtonToggleTheme() {
             <path d="m6.34 17.66-1.41 1.41" />
             <path d="m19.07 4.93-1.41 1.41" />
           </>
+        ) : (
+          <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z" />
         )}
-        {theme === "light" && <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z" />}
       </svg>
     </button>
   );
