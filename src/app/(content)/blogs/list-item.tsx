@@ -10,8 +10,8 @@ export type Blog = {
 export function BlogListItem({ blog }: { blog: Blog }) {
   return (
     <Link href={`/blogs/${blog.slug}`}>
-      <div className="py-8 flex flex-wrap md:flex-nowrap">
-        <div className="relative h-40 sm:w-40 mb-4 sm:mr-4 flex-shrink-0 flex flex-col">
+      <div className="py-8 flex flex-wrap sm:flex-nowrap">
+        <div className="relative h-40 w-full sm:w-40 mb-4 sm:mr-4 flex-shrink-0 flex flex-col">
           <Image
             src={blog.coverImage ?? ""}
             alt={blog.title}
