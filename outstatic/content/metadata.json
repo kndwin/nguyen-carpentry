@@ -1,6 +1,6 @@
 {
-  "commit": "f04dcc8e8a67d8c84eff0285e892a3a0d7193573",
-  "generated": "2023-12-10T03:14:42.291Z",
+  "commit": "0fb7a7a91aa1588715fedbafaec6c88c337d1991",
+  "generated": "2023-12-10T03:16:34.391Z",
   "metadata": [
     {
       "__outstatic": {
@@ -60,24 +60,6 @@
     },
     {
       "__outstatic": {
-        "commit": "35c168cbc411ed89e8b737467aa931961d683568",
-        "hash": "1478623885",
-        "path": "outstatic/content/portfolios/crafting-timeless-elegance-the-chesterfield-chronicles.md"
-      },
-      "author": {
-        "name": "Kevin Nguyen",
-        "picture": "https://avatars.githubusercontent.com/u/22161029?v=4"
-      },
-      "collection": "portfolios",
-      "coverImage": "/images/chesterfield-brown-YxMD.jpg",
-      "description": "Embark on a journey from concept to delivery, exploring the meticulous craftsmanship, client collaborations, and challenges behind creating a bespoke 3-seater chesterfield—a timeless masterpiece in furniture design.",
-      "publishedAt": "2023-12-10T03:23:46.268Z",
-      "slug": "crafting-timeless-elegance-the-chesterfield-chronicles",
-      "status": "published",
-      "title": "Crafting Timeless Elegance: The Chesterfield Chronicles"
-    },
-    {
-      "__outstatic": {
         "commit": "f04dcc8e8a67d8c84eff0285e892a3a0d7193573",
         "hash": "641330031",
         "path": "outstatic/content/portfolios/crafting-modern-elegance-designing-a-white-gloss-kitchen.md"
@@ -93,6 +75,24 @@
       "slug": "crafting-modern-elegance-designing-a-white-gloss-kitchen",
       "status": "published",
       "title": "Crafting Modern Elegance: Designing a White Gloss Kitchen"
+    },
+    {
+      "__outstatic": {
+        "commit": "0fb7a7a91aa1588715fedbafaec6c88c337d1991",
+        "hash": "2611193543",
+        "path": "outstatic/content/portfolios/crafting-timeless-elegance-the-chesterfield-chronicles.md"
+      },
+      "author": {
+        "name": "Kevin Nguyen",
+        "picture": "https://avatars.githubusercontent.com/u/22161029?v=4"
+      },
+      "collection": "portfolios",
+      "coverImage": "/images/chesterfield-brown-YxMD.jpg",
+      "description": "Embark on a journey from concept to delivery, exploring the meticulous craftsmanship, client collaborations, and challenges behind creating a bespoke 3-seater chesterfield—a timeless masterpiece in furniture design.",
+      "publishedAt": "2023-12-10T03:23:46.268Z",
+      "slug": "crafting-timeless-elegance-the-chesterfield-chronicles",
+      "status": "published",
+      "title": "The Chesterfield Chronicles"
     }
   ]
 }
