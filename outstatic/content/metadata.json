@@ -1,6 +1,6 @@
 {
-  "commit": "35c168cbc411ed89e8b737467aa931961d683568",
-  "generated": "2023-12-10T02:30:13.895Z",
+  "commit": "ac78d41fd18f19ef5594e753cc4d5ea12907a246",
+  "generated": "2023-12-10T03:23:14.990Z",
   "metadata": [
     {
       "__outstatic": {
@@ -60,8 +60,8 @@
     },
     {
       "__outstatic": {
-        "commit": "35c168cbc411ed89e8b737467aa931961d683568",
-        "hash": "1478623885",
+        "commit": "0fb7a7a91aa1588715fedbafaec6c88c337d1991",
+        "hash": "2611193543",
         "path": "outstatic/content/portfolios/crafting-timeless-elegance-the-chesterfield-chronicles.md"
       },
       "author": {
@@ -74,7 +74,43 @@
       "publishedAt": "2023-12-10T03:23:46.268Z",
       "slug": "crafting-timeless-elegance-the-chesterfield-chronicles",
       "status": "published",
-      "title": "Crafting Timeless Elegance: The Chesterfield Chronicles"
+      "title": "The Chesterfield Chronicles"
+    },
+    {
+      "__outstatic": {
+        "commit": "8b952ba955e29cd2f76b1faafdb361b63d9143a7",
+        "hash": "1334607520",
+        "path": "outstatic/content/portfolios/crafting-modern-elegance-designing-a-white-gloss-kitchen.md"
+      },
+      "author": {
+        "name": "Kevin Nguyen",
+        "picture": "https://avatars.githubusercontent.com/u/22161029?v=4"
+      },
+      "collection": "portfolios",
+      "coverImage": "/images/white-ktichen-gloss-A1Mj.jpeg",
+      "description": "Embark on a design journey crafting a modern, white gloss kitchen with Blum joints—where vision meets precision. Elevate your space with enduring elegance and seamless functionality, a timeless masterpiece in kitchen design.",
+      "publishedAt": "2023-12-10T04:16:48.841Z",
+      "slug": "crafting-modern-elegance-designing-a-white-gloss-kitchen",
+      "status": "published",
+      "title": "Designing a White Gloss Kitchen"
+    },
+    {
+      "__outstatic": {
+        "commit": "ac78d41fd18f19ef5594e753cc4d5ea12907a246",
+        "hash": "2611538490",
+        "path": "outstatic/content/portfolios/a-symphony-in-dark-wood-and-leather.md"
+      },
+      "author": {
+        "name": "Kevin Nguyen",
+        "picture": "https://avatars.githubusercontent.com/u/22161029?v=4"
+      },
+      "collection": "portfolios",
+      "coverImage": "/images/dining-table-UwOD.jpeg",
+      "description": "Step into a world of timeless elegance and comfort as we explore the creation of a dark wood dining table with leather upholstered chairs—a symphony of craftsmanship and sophistication.",
+      "publishedAt": "2023-12-10T04:26:52.296Z",
+      "slug": "a-symphony-in-dark-wood-and-leather",
+      "status": "published",
+      "title": "A Symphony in Dark Wood and Leather"
     }
   ]
 }
