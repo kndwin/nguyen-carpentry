@@ -1,6 +1,6 @@
 {
-  "commit": "2b998dd56a0f2f8de9764bf65be8f6e84f276d8f",
-  "generated": "2023-12-09T07:59:26.344Z",
+  "commit": "9fa9055fb82cef81c9f0e95ae214cd5194417f82",
+  "generated": "2023-12-10T02:19:03.309Z",
   "metadata": [
     {
       "__outstatic": {
@@ -57,6 +57,24 @@
       "slug": "navigating-the-world-of-fabrics",
       "status": "published",
       "title": "Navigating the World of Fabrics"
+    },
+    {
+      "__outstatic": {
+        "commit": "9fa9055fb82cef81c9f0e95ae214cd5194417f82",
+        "hash": "2635184321",
+        "path": "outstatic/content/portfolios/crafting-timeless-elegance-the-chesterfield-chronicles.md"
+      },
+      "author": {
+        "name": "Kevin Nguyen",
+        "picture": "https://avatars.githubusercontent.com/u/22161029?v=4"
+      },
+      "collection": "portfolios",
+      "coverImage": "",
+      "description": "Embark on a journey from concept to delivery, exploring the meticulous craftsmanship, client collaborations, and challenges behind creating a bespoke 3-seater chesterfield—a timeless masterpiece in furniture design.",
+      "publishedAt": "2023-12-10T03:23:46.268Z",
+      "slug": "crafting-timeless-elegance-the-chesterfield-chronicles",
+      "status": "draft",
+      "title": "Crafting Timeless Elegance: The Chesterfield Chronicles"
     }
   ]
 }
