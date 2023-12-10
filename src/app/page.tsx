@@ -2,8 +2,8 @@ import Image from "next/image";
 import { load } from "outstatic/server";
 
 import { Layout } from "@/components/layout";
-import { BlogItem, Blog } from "./(content)/blogs/page";
-import { PortfolioItem, Portfolio } from "./(content)/portfolios/page";
+import { BlogListItem, Blog } from "./(content)/blogs/list-item";
+import { PortfolioListItem, Portfolio } from "./(content)/portfolios/list-item";
 
 export default function Home() {
   return (
@@ -87,7 +87,7 @@ async function Portfolio() {
         <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {portfolios.map((portfolio) => (
             <li key={portfolio.slug}>
-              <PortfolioItem key={portfolio.slug} portfolio={portfolio} />
+              <PortfolioListItem key={portfolio.slug} portfolio={portfolio} />
             </li>
           ))}
         </ul>
@@ -125,7 +125,7 @@ async function Blogs() {
             Get update to date
           </h1>
           {blogs.map((blog) => (
-            <BlogItem key={blog.slug} blog={blog} />
+            <BlogListItem key={blog.slug} blog={blog} />
           ))}
         </div>
       </div>
