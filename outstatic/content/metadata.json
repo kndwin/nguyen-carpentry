@@ -1,6 +1,6 @@
 {
-  "commit": "8b952ba955e29cd2f76b1faafdb361b63d9143a7",
-  "generated": "2023-12-10T03:16:45.597Z",
+  "commit": "ac78d41fd18f19ef5594e753cc4d5ea12907a246",
+  "generated": "2023-12-10T03:23:14.990Z",
   "metadata": [
     {
       "__outstatic": {
@@ -93,6 +93,24 @@
       "slug": "crafting-modern-elegance-designing-a-white-gloss-kitchen",
       "status": "published",
       "title": "Designing a White Gloss Kitchen"
+    },
+    {
+      "__outstatic": {
+        "commit": "ac78d41fd18f19ef5594e753cc4d5ea12907a246",
+        "hash": "2611538490",
+        "path": "outstatic/content/portfolios/a-symphony-in-dark-wood-and-leather.md"
+      },
+      "author": {
+        "name": "Kevin Nguyen",
+        "picture": "https://avatars.githubusercontent.com/u/22161029?v=4"
+      },
+      "collection": "portfolios",
+      "coverImage": "/images/dining-table-UwOD.jpeg",
+      "description": "Step into a world of timeless elegance and comfort as we explore the creation of a dark wood dining table with leather upholstered chairs—a symphony of craftsmanship and sophistication.",
+      "publishedAt": "2023-12-10T04:26:52.296Z",
+      "slug": "a-symphony-in-dark-wood-and-leather",
+      "status": "published",
+      "title": "A Symphony in Dark Wood and Leather"
     }
   ]
 }
