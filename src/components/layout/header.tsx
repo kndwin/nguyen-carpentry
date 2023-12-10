@@ -27,7 +27,7 @@ export const Header = () => {
           </Link>
           <Link
             className={linkVariant({ active: pathname === "/portfolio" })}
-            href="/portfolio"
+            href="/portfolios"
           >
             Portfolio
           </Link>

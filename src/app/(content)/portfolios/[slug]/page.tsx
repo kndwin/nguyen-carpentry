@@ -19,7 +19,7 @@ type Params = {
 export default async function Page(params: Params) {
   const portfolio = await getData(params);
   return (
-    <Layout.Portfolio>
+    <Layout.Article>
       <div className="relative mb-2 md:mb-4 sm:mx-0 w-full h-52 md:h-96">
         <Image
           alt={portfolio.title}
@@ -54,7 +54,7 @@ export default async function Page(params: Params) {
           dangerouslySetInnerHTML={{ __html: portfolio.content }}
         />
       </div>
-    </Layout.Portfolio>
+    </Layout.Article>
   );
 }
 

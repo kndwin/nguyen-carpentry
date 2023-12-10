@@ -36,38 +36,26 @@ export default async function Portfolios() {
 export function PortfolioItem({ portfolio }: { portfolio: Portfolio }) {
   return (
     <Link href={`/portfolios/${portfolio.slug}`}>
-      <div className="py-8 flex flex-wrap md:flex-nowrap">
-        <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+      <div className="lg:w-1/3 sm:w-1/2 p-4">
+        <div className="flex relative rounded-lg overflow-hidden">
           <Image
-            width={200}
-            height={200}
+            alt="gallery"
+            className="absolute inset-0 w-full h-full object-cover object-center"
             src={portfolio.coverImage ?? ""}
-            alt={portfolio.title}
-            className="object-cover object-center rounded"
+            width={600}
+            height={360}
           />
-        </div>
-        <div className="md:flex-grow">
-          <span className="mt-1 text-gray-10 text-sm mr-4">
-            {format(parseISO(portfolio.publishedAt), "MMMM dd, yyyy")}
-          </span>
-          <div className="inline-flex flex-wrap gap-2">
-            {portfolio.category.map(({ value }) => (
-              <span
-                key={value}
-                className="capitalize bg-yellow-5 rounded w-fit text-xs px-1 font-medium text-yellow-12"
-              >
-                {value}
-              </span>
-            ))}
+          <div className="p-6 relative z-10 w-full bg-yellow-1 opacity-0 hover:opacity-100 rounded-lg">
+            <h2 className="tracking-widest text-sm title-font font-medium text-yellow-10 mb-1">
+              {format(parseISO(portfolio.publishedAt), "MMMM dd, yyyy")}
+            </h2>
+            <h1 className="title-font text-lg font-medium mb-3">
+              {portfolio.title}
+            </h1>
+            <p className="leading-relaxed text-gray-11">
+              {portfolio.description}
+            </p>
           </div>
-          <h2 className="text-2xl text-gray-12 font-bold title-font mb-2">
-            {portfolio.title}
-          </h2>
-          <p className="leading-relaxed">{portfolio.description}</p>
-          <a className="text-yellow-10 inline-flex items-center mt-4 line-clamp-2 overflow-ellipsis">
-            Learn More
-            <Icons.RightArrow />
-          </a>
         </div>
       </div>
     </Link>

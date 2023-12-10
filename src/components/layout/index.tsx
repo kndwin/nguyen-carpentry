@@ -20,7 +20,7 @@ const Default = ({ children }: { children: React.ReactNode }) => {
   );
 };
 
-const Blog = ({ children }: { children: React.ReactNode }) => {
+const Article = ({ children }: { children: React.ReactNode }) => {
   return (
     <Layout>
       <div className="max-w-6xl mx-auto px-5 flex flex-col">
@@ -112,6 +112,6 @@ const Icon = {
 };
 
 export const Layout = Object.assign(LayoutBase, {
-  Blog,
+  Article,
   Default,
 });
