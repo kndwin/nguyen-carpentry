@@ -1,6 +1,6 @@
 {
-  "commit": "35c168cbc411ed89e8b737467aa931961d683568",
-  "generated": "2023-12-10T02:30:13.895Z",
+  "commit": "f04dcc8e8a67d8c84eff0285e892a3a0d7193573",
+  "generated": "2023-12-10T03:14:42.291Z",
   "metadata": [
     {
       "__outstatic": {
@@ -75,6 +75,24 @@
       "slug": "crafting-timeless-elegance-the-chesterfield-chronicles",
       "status": "published",
       "title": "Crafting Timeless Elegance: The Chesterfield Chronicles"
+    },
+    {
+      "__outstatic": {
+        "commit": "f04dcc8e8a67d8c84eff0285e892a3a0d7193573",
+        "hash": "641330031",
+        "path": "outstatic/content/portfolios/crafting-modern-elegance-designing-a-white-gloss-kitchen.md"
+      },
+      "author": {
+        "name": "Kevin Nguyen",
+        "picture": "https://avatars.githubusercontent.com/u/22161029?v=4"
+      },
+      "collection": "portfolios",
+      "coverImage": "/images/white-ktichen-gloss-A1Mj.jpeg",
+      "description": "Embark on a design journey crafting a modern, white gloss kitchen with Blum joints—where vision meets precision. Elevate your space with enduring elegance and seamless functionality, a timeless masterpiece in kitchen design.",
+      "publishedAt": "2023-12-10T04:16:48.841Z",
+      "slug": "crafting-modern-elegance-designing-a-white-gloss-kitchen",
+      "status": "published",
+      "title": "Crafting Modern Elegance: Designing a White Gloss Kitchen"
     }
   ]
 }
