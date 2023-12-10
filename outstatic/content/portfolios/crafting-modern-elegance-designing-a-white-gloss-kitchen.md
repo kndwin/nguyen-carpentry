@@ -1,5 +1,5 @@
 ---
-title: 'Crafting Modern Elegance: Designing a White Gloss Kitchen'
+title: 'Designing a White Gloss Kitchen'
 status: 'published'
 author:
   name: 'Kevin Nguyen'
