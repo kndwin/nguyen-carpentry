@@ -37,17 +37,17 @@ export function BlogItem({ blog }: { blog: Blog }) {
   return (
     <Link href={`/blogs/${blog.slug}`}>
       <div className="py-8 flex flex-wrap md:flex-nowrap">
-        <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+        <div className="relative h-40 sm:w-40 mb-4 sm:mr-4 flex-shrink-0 flex flex-col">
           <Image
-            width={200}
-            height={200}
             src={blog.coverImage ?? ""}
             alt={blog.title}
-            className="object-cover object-center rounded"
+            className="object-cover object-center rounded-xl"
+            fill
+            priority
           />
         </div>
         <div className="md:flex-grow">
-          <span className="mt-1 text-gray-10 text-sm mr-4">
+          <span className="mt-1 text-sand-11 text-sm mr-4">
             {format(parseISO(blog.publishedAt), "MMMM dd, yyyy")}
           </span>
           <div className="inline-flex flex-wrap gap-2">
@@ -60,11 +60,11 @@ export function BlogItem({ blog }: { blog: Blog }) {
               </span>
             ))}
           </div>
-          <h2 className="text-2xl text-gray-12 font-bold title-font mb-2">
+          <h2 className="text-2xl text-yellow-12 font-bold title-font mb-2">
             {blog.title}
           </h2>
           <p className="leading-relaxed">{blog.description}</p>
-          <a className="text-yellow-10 inline-flex items-center mt-4 line-clamp-2 overflow-ellipsis">
+          <a className="text-sand-10 inline-flex items-center mt-4 line-clamp-2 overflow-ellipsis">
             Learn More
             <Icons.RightArrow />
           </a>

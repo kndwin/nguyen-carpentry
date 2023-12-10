@@ -24,8 +24,8 @@ export default async function Page(params: Params) {
         <Image
           alt={blog.title}
           src={blog?.coverImage || ""}
-          fill
           className="object-cover object-center rounded-xl"
+          fill
           priority
         />
       </div>
