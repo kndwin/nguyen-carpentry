@@ -2,9 +2,9 @@
 author:
   name: 'Kevin Nguyen'
   picture: 'https://avatars.githubusercontent.com/u/22161029?v=4'
-coverImage: ''
+coverImage: '/images/chesterfield-brown-YxMD.jpg'
 title: 'Crafting Timeless Elegance: The Chesterfield Chronicles'
-status: 'draft'
+status: 'published'
 slug: 'crafting-timeless-elegance-the-chesterfield-chronicles'
 description: 'Embark on a journey from concept to delivery, exploring the meticulous craftsmanship, client collaborations, and challenges behind creating a bespoke 3-seater chesterfield—a timeless masterpiece in furniture design.'
 publishedAt: '2023-12-10T03:23:46.268Z'

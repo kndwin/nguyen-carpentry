@@ -1,6 +1,6 @@
 {
-  "commit": "9fa9055fb82cef81c9f0e95ae214cd5194417f82",
-  "generated": "2023-12-10T02:19:03.309Z",
+  "commit": "35c168cbc411ed89e8b737467aa931961d683568",
+  "generated": "2023-12-10T02:30:13.895Z",
   "metadata": [
     {
       "__outstatic": {
@@ -60,8 +60,8 @@
     },
     {
       "__outstatic": {
-        "commit": "9fa9055fb82cef81c9f0e95ae214cd5194417f82",
-        "hash": "2635184321",
+        "commit": "35c168cbc411ed89e8b737467aa931961d683568",
+        "hash": "1478623885",
         "path": "outstatic/content/portfolios/crafting-timeless-elegance-the-chesterfield-chronicles.md"
       },
       "author": {
@@ -69,11 +69,11 @@
         "picture": "https://avatars.githubusercontent.com/u/22161029?v=4"
       },
       "collection": "portfolios",
-      "coverImage": "",
+      "coverImage": "/images/chesterfield-brown-YxMD.jpg",
       "description": "Embark on a journey from concept to delivery, exploring the meticulous craftsmanship, client collaborations, and challenges behind creating a bespoke 3-seater chesterfield—a timeless masterpiece in furniture design.",
       "publishedAt": "2023-12-10T03:23:46.268Z",
       "slug": "crafting-timeless-elegance-the-chesterfield-chronicles",
-      "status": "draft",
+      "status": "published",
       "title": "Crafting Timeless Elegance: The Chesterfield Chronicles"
     }
   ]
